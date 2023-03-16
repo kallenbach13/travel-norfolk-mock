@@ -10,8 +10,10 @@
 
     <body>
 
-        <nav>
-            <h1><a>Travel Norfolk Logo</a></h1>
+    <!-- Navigation -->
+
+        <nav id="nav-bar">
+            <img id="travel-logo" src="resources/assets/Travel Norfolk Logo-FullColour.png" alt="Travel Nolfolk Logo">
             <ul id="nav-links">
                 <li><a>Journey Planner</a></li>
                 <li><a>Travel</a></li>
@@ -21,15 +23,54 @@
                 <li><a>News</a></li>
                 <li><a>Contact Us</a></li>
             </ul>
-            <p>magnfiying glass</p>
-            <p>Nofolk County Logo</p>
+            <img id="magnifying-glass" src="resources/assets/Icon feather-search.png">
+            <img id="county-logo" src="resources/assets/New-NCC-Logo-DoubleDecker-coloured-medium.png">
         </nav>
 
-        <div id="bgimg">
-            div with background
+        <!-- Travel Smart -->
+
+        <div id="travel-smart">
+            <img id="travel-smart-img" src="resources/assets/shutterstock_2208903719.png">
+            <div id="travel-smart-text">Travel Smart, Travel Norfolk</div>
         </div>
 
+        <!-- Journey Planner -->
 
+        <div id="journey-planner-container">
+            <h2>Journey Planner</h2>
+            <form id="journey-planner-form">
+                <label for="leaving-from">Leaving from...</label><br>
+                <input type="text" id="leaving-from" name="leaving-from" value="From station, bust stop or postcode"><br>
+                <label for="going-to">Going to...</label><br>
+                <input type="text" id="going-to" name="going-to" value="To station, bus stop or postcode"><br>
+                <label for="date">When...</label><br>
+                <select>
+                    <option value="depart-now">Depart Now</option>
+                </select><br><br>
+                <input type="submit" value="Plan My Journey">
+            </form>
+        </div>
+
+        <!-- Proposition Blurbs -->
+
+        <div id="blurb-container">
+            <div id="blurb-1" class="blurb">
+                <h3>Value proposition lorem</h3>
+                <p>Something something something</p>
+            </div>
+
+            <div id="blurb-2" class="blurb">
+                <h3>Dolor value proposition</h3>
+                <p>Something something something</p>
+            </div>
+
+            <div id="blurb-3" class="blurb">
+                <h3>Amet value proposition</h3>
+                <p>Something something something</p>
+            </div>
+        </div>
+
+        <!-- Call to Action Footer -->
 
 
 
