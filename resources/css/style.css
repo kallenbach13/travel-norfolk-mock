@@ -7,12 +7,15 @@
     align-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 80px;
+    position: fixed;
+    background-color: #FFF;
+    z-index: 1;
 }
 
 #travel-logo {
-    width: 11em;
-    height: 7em;
+    width: 10em;
+    height: 6em;
     padding-bottom: 5px;
     position: relative;
     top: -18px;
@@ -29,6 +32,16 @@
     height: 60px;
     font-size: 0.7em;
     font-weight: 600;
+}
+
+a:link {
+    text-decoration: none;
+    color: #282f57;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #282f57;
 }
 
 #magnifying-glass {
@@ -55,10 +68,12 @@
     position: absolute;
     width: 28%;
     height: 300px;
-    left: 180px;
-    top: 160px;
+    left: 200px;
+    top: 150px;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #282f57;
 }
 
 /* Journey Planner */
@@ -68,6 +83,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 250px;
     width: 100%;
     height: 200px;
 }
@@ -76,9 +93,9 @@
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    width: 75%;
+    width: 70%;
     height: 90%;
-    background-color: #181868;
+    background-color: #282f57;
 }
 
 #journey-planner-text {
@@ -118,7 +135,7 @@
     justify-content: center;
     width: 100%;
     height: 200px;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
@@ -133,14 +150,17 @@
 .blurb-image {
     width: 4em;
     height: 4em;
+    margin-bottom: 20px;
 }
 
 .blurb-header {
     font-size: 1.5em;
+    color: #282f57;
 }
 
 .blurb-text {
     font-size: 1em;
+    color: #282f57;
    
 }
 
@@ -150,21 +170,37 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 150px;
-    background-color: brown;
 }
 
 #footer-text-box {
     width: 50%;
     padding-top: 60px;
     padding-left: 170px;
+    background-color: #F3FFFF;
 }
 
 #footer-header {
     font-size: 3em;
+    font-weight: 700;
+    color: #282f57;
 }
 
 #footer-text {
     width: 80%;
+    line-height: 2;
+    color: #282f57;
+}
+
+#action-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#action-arrow {
+    width: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #footer-image {
