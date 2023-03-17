@@ -27,7 +27,7 @@
     padding-right: 10px;
     width: 60%;
     height: 60px;
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: 600;
 }
 
@@ -37,8 +37,8 @@
 }
 
 #county-logo {
-    width: 9em;
-    height: 3em;
+    width: 8em;
+    height: 2em;
 }
 
 /* Travel Smart */
@@ -53,11 +53,11 @@
 
 #travel-smart-text {
     position: absolute;
-    width: 30%;
+    width: 28%;
     height: 300px;
-    left: 150px;
+    left: 180px;
     top: 160px;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -65,19 +65,80 @@
 
 #journey-planner-container {
     display: flex;
-    background-color: yellow;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 200px;
+}
+
+#text-and-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 75%;
+    height: 90%;
+    background-color: #181868;
+}
+
+#journey-planner-text {
+    font-size: 1.4em;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: #FFF;
+}
+
+
+#journey-planner-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: #FFF;
+}
+
+.label-and-input {
+    display: flex;
+    flex-direction: column;
 }
 
 #journey-planner-form {
     display: flex;
     flex-direction: row;
-    background-color: purple;
 }
+
+/* Blurbs */
 
 #blurb-container {
     display: flex;
-    background-color: blue;
-    align-items: space-around;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.blurb-image {
+    width: 4em;
+    height: 5em;
+}
+
+.blurb-header {
+    font-size: 1.5em;
+}
+
+.blurb-text {
+    font-size: 1em;
+   
 }
