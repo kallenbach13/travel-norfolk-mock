@@ -16,15 +16,15 @@
             <img id="travel-logo" src="resources/assets/Travel Norfolk Logo-FullColour.png" alt="Travel Nolfolk Logo">
             <ul id="nav-links">
                 <li><a href="#">JOURNEY PLANNER</a></li>
-                <li><a href="#">TRAVEL</a></li>
-                <li><a href="#">CAMPAIGN TBC</a></li>
-                <li><a href="#">RESOURCES</a></li>
-                <li><a href="#">GOOD JOURNEY</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li class="hideme"><a href="#">TRAVEL</a></li>
+                <li class="hideme"><a href="#">CAMPAIGN TBC</a></li>
+                <li class="hideme"><a href="#">RESOURCES</a></li>
+                <li class="hideme"><a href="#">GOOD JOURNEY</a></li>
+                <li class="hideme"><a href="#">NEWS</a></li>
+                <li class="hideme"><a href="#">CONTACT US</a></li>
             </ul>
-            <img id="magnifying-glass" src="resources/assets/Icon feather-search.png">
-            <img id="county-logo" src="resources/assets/New-NCC-Logo-DoubleDecker-coloured-medium.png">
+            <img id="magnifying-glass" class="hideme" src="resources/assets/Icon feather-search.png">
+            <img id="county-logo" class="hideme" src="resources/assets/New-NCC-Logo-DoubleDecker-coloured-medium.png">
         </nav>
 
         <!-- Travel Smart -->
@@ -37,26 +37,29 @@
         <!-- Journey Planner -->
 
         <div id="journey-planner-container">
-            <div id="text-and-form">
+            <div id="text-and-form-box">
 
-                <h2 id="journey-planner-text">Journey Planner</h2>
+                <h2 id="journey-planner-header">Journey Planner</h2>
 
                 <div id="journey-planner-form">
                     <div class="label-and-input">
-                        <label for="leaving-from">Leaving from...</label>
-                        <input type="text" id="leaving-from" name="leaving-from" value="From station, bust stop or postcode">
+                        <label class="input-label-text" for="leaving-from">Leaving from...</label>
+                        <input type="text" class="input" id="leaving-from" name="leaving-from" value="From station, bust stop or postcode">
                     </div>
                     <div class="label-and-input">
-                        <label for="going-to">Going to...</label>
-                        <input type="text" id="going-to" name="going-to" value="To station, bus stop or postcode">
+                        <label class="input-label-text" for="going-to">Going to...</label>
+                        <input type="text" class="input" id="going-to" name="going-to" value="To station, bus stop or postcode">
                     </div>
                     <div class="label-and-input">
-                        <label for="date">When...</label>
-                        <select>
-                            <option value="depart-now">Depart Now</option>
+                        <label class="input-label-text" for="date">When...</label>
+                        <select id="select">
+                            <option value="depart-now">Today</option>
                         </select>
                     </div>
-                    <button>Plan my journey</button>
+                    <div id="button-div">
+                        Plan My Journey
+                        <img id="chevron" src="resources/assets/Icon feather-chevrons-right.png">
+                    </div>
                 </div>
 
             </div>
@@ -65,19 +68,19 @@
         <!-- Blurbs -->
 
         <div id="blurb-container">
-            <div id="blurb-1" class="blurb">
+            <div id="blurb-1" class="col blurb">
                 <img src="resources/assets/Walk.png" class="blurb-image" alt="Cartoon of couple walking">
                 <h3 class="blurb-header">Value proposition lorem</h3>
                 <p class="blurb-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
             </div>
 
-            <div id="blurb-2" class="blurb">
+            <div id="blurb-2" class="col blurb">
                 <img src="resources/assets/Bike.png" class="blurb-image" alt="Cartoon bike">
                 <h3 class="blurb-header">Dolor value proposition</h3>
                 <p class="blurb-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
             </div>
 
-            <div id="blurb-3" class="blurb">
+            <div id="blurb-3" class="col blurb">
                 <img src="resources/assets/Bus.png" class="blurb-image" alt="Cartoon bus stop">
                 <h3 class="blurb-header">Amet value proposition</h3>
                 <p class="blurb-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
