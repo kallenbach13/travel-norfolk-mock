@@ -271,8 +271,8 @@ and (max-device-width : 480px) {
 }
 
 #travel-logo {
-    width: 10em;
-    height: 6em;
+    width: 8em;
+    height: 4em;
     padding-bottom: 5px;
     position: relative;
     top: -18px;
@@ -325,6 +325,7 @@ a:visited {
     justify-content: center;
     width: 100%;
     height: 500px;
+    margin-bottom: 180px;
 }
 
 #travel-smart-img {
@@ -357,7 +358,6 @@ a:visited {
     align-items: center;
     position: absolute;
     bottom: 170px;
-    width: 100%;
     height: 200px;
     margin-bottom: 100px;
 }
@@ -367,14 +367,14 @@ a:visited {
     flex-direction: column;
     border-radius: 15px;
     width: 70%;
-    height: 350px;
+    height: 380px;
     background-color: #282f57;
 }
 
 #journey-planner-header {
-    font-size: 1.4em;
+    font-size: 0.9em;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 150px;
     padding-bottom: 30px;
     color: #FFF;
 }
@@ -393,13 +393,14 @@ a:visited {
 }
 
 .input {
-    padding: 8px;
+    padding: 14px;
     border-radius: 5px;
 }
 
 #select {
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
+    width: 200px;
 }
 
 #button-div {
@@ -470,14 +471,17 @@ a:visited {
 #footer-container {
     display: flex;
     flex-direction: column-reverse;
+    height: 650px;
     margin-bottom: 10px;
 }
 
 #footer-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     height: 50%;
-    padding-top: 60px;
-    padding-left: 170px;
+    padding-top: 25px;
     background-color: #F3FFFF;
 }
 
