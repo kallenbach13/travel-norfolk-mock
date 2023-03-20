@@ -57,6 +57,13 @@ a:visited {
     height: 1.2em;
 }
 
+#vert-line {
+    display: flex;
+    flex-direction: row;
+    width: 1px;
+    height: 50%;
+}
+
 #county-logo {
     width: 8em;
     height: 2em;
