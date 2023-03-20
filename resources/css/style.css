@@ -122,18 +122,33 @@ a:visited {
 #journey-planner-header {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-bottom: 30px;
     color: #FFF;
+}
+
+#line-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
+#planner-line {
+    border: 0.5px solid #FFF;
+    width: 90%;
 }
 
 #journey-planner-form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
+    bottom: 30px;
     align-items: center;
     color: #FFF;
 }
