@@ -9,6 +9,9 @@
     padding-left: 110px;
     padding-right: 110px;
     height: 90px;
+    position: fixed;
+    background-color: #FFF;
+    z-index: 1;
 }
 
 #travel-logo {
@@ -428,7 +431,7 @@ and (max-device-width : 820px) {
     margin-bottom: 0px;
 }
 
-#text-and-form-box {
+#journey-planner {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
