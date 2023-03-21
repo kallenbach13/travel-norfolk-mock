@@ -168,6 +168,23 @@ a:visited {
     border-radius: 5px;
 }
 
+#leaving-going-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 450px;
+}
+
+#horizontal-arrow-div {
+    position: relative;
+    top: 30px;
+}
+
+.fa-arrow-right-arrow-left {
+    color: #FFF;
+    font-size: 1.25em;
+}
+
 #select {
     padding: 10px;
     border-radius: 5px;
@@ -466,6 +483,17 @@ and (max-device-width : 820px) {
     padding: 14px;
     border-radius: 5px;
     width: 270px;
+}
+
+#leaving-going-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#horizontal-arrow-div {
+    display: none;
 }
 
 #select {
