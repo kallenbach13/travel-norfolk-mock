@@ -185,6 +185,15 @@ a:visited {
     font-size: 1.25em;
 }
 
+#vert-planner-line {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5px;
+    width: 0.5px;
+    height: 80%;
+}
+
 #select {
     padding: 10px;
     border-radius: 5px;
@@ -493,6 +502,10 @@ and (max-device-width : 820px) {
 }
 
 #horizontal-arrow-div {
+    display: none;
+}
+
+#vert-planner-line {
     display: none;
 }
 
